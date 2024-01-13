@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  coding
 } from "../assets";
 
 export const navLinks = [
@@ -43,19 +44,19 @@ export const navLinks = [
 const services = [
   {
     title: "Web Developer",
-    icon: web,
+    icon: creator,
   },
   {
     title: "React Native Developer",
-    icon: mobile,
+    icon: web,
   },
   {
-    title: "Backend Developer",
+    title: "Three JS Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "UI/UX Designer",
+    icon: mobile,
   },
 ];
 
@@ -116,26 +117,13 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
     title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    company_name: "Goody: Truck & Bike Delivery",
+    icon: coding,
+    iconBg: "#383E56",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Created an interactive Design for this project",
+      "Developing and maintaining mobole applications using React Native and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
@@ -143,28 +131,44 @@ const experiences = [
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    company_name: "Gradical",
+    icon: coding,
+    iconBg: "#E6DEDD",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Created an interactive Design for this project",
+      "Developing and maintaining web applications using JS and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Implementing Headless CMS",
+      "Implemention Locomotive for Smooth Scroll",
+      "Carry out deployment",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Angular Developer",
+    company_name: "EVM Wheels",
+    icon: coding,
+    iconBg: "#383E56",
     points: [
+      "Developing and maintaining web applications using Angular and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+
+    ],
+  },
+  {
+    title: "React JS Developer",
+    company_name: "Viact.ai",
+    icon: coding,
+    iconBg: "#E6DEDD",
+    points: [
+      "Created an interactive Design for this project",
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+      "Integration of 3D data rendering of site plans"
     ],
   },
 ];
